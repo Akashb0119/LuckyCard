@@ -1,0 +1,60 @@
+body{
+    font-family:sans-serif;
+}
+.main-container{
+    padding: 12px 24px;
+    letter-spacing: 2px;
+    position: relative;
+    
+    width: auto;
+    height:500px
+    
+ }
+ h2.main-heading{
+    border-left: 10px solid red;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+ }
+.scratch_container{
+    width: 350px;
+    height: 350px;
+    background-color: #03fcd7;
+    border-radius:10px;
+    margin-bottom: 32px;
+    overflow: hidden;
+    position: relative;
+
+
+ }
+ img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+ }
+.code{
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items:center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing:2px;
+   
+}
+
+
+button{
+    background-color: aquamarine;
+    color: rgb(4, 4, 4);
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+canvas{
+    position: absolute;
+    cursor: grabbing
+}
